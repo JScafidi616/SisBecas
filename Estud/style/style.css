@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    /*  text-align: center; */
+}
+.wrapper{
+    /*width: 650px;*/
+    /*width: 800px;*/
+    width: 1200px;
+    height: 610px;
+    margin: 0 auto;
+}
+.page-header h2{
+    margin-top: 0;
+}
+table tr td:last-child a{
+    margin-right: 15px;
+}
+.page-navigation {
+    text-align: center;
+}
+.page-navigation a {
+margin: 0 2px;
+display: inline-block;
+padding: 3px 5px;
+color: #ffffff;
+background-color: #70b7ec;
+border-radius: 5px;
+text-decoration: none;
+font-weight: bold;
+}
+
+div#myNavWrapper {
+    margin: 0 auto;
+    position: absolute;
+    bottom: 15px;
+    width: 1200px;
+    /* width: 200px; */
+    /* left: 25%; */
+    /* margin-left: -100px; */
+}
+
+.page-navigation a{
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+
+.page-navigation a[data-selected] {
+    color: #fff;
+    background-color: #4b964b;
+    border-color: #4cae4c;
+    
+}
+
+.Options {
+    margin: 5px 0 5px 0;
+    padding: 0px 0px 10px 0px;
+
+}
+
+.rbt{
+    padding: 5px 15px 5px 15px;
+    margin: 0 50px 0 0;
+}
+
+.actionMenu{
+    width: 80px;
+    padding: 18px 15px 18px 15px !important;
+}
+
+thead.title-align{ 
+    white-space: nowrap;
+}
+
+tbody.T_content-align{ 
+    word-break: break-word;
+}
+
+/**************************/
+/* adiciones al bootstrap */
+.modal-dialog.modal-lg {
+    /*width: 600px;*/
+    width: 325px;
+    
+}
+
+.modal-body {
+    height: 90px;
+    /*height: 110px;*/
+}
+
+table tr td:last-child a {
+    margin: 0 5px 0 5px;
+}
+/**************************/
+

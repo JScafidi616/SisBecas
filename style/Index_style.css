@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f6fa;
+    /*  text-align: center; */
+    overflow: hidden;
+}
+
+.header {
+    width: 100%;
+    background-color: #5cb85c;
+    position: absolute;
+    margin: 0 auto;
+    height: 90px;
+}
+
+.block, .padding {
+    background: #718093;
+    height: 400px;
+    width: 210px;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 5px;
+    
+}
+
+.block-inside{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: relative;
+    bottom: 0;
+    padding: 12px;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+.block-inside:hover {
+    transform: scale(1.05,1.05);
+    background-color: #dcdde1;
+}
+
+.ico {
+    font-size: 150px;
+}
+
+.container-centered{
+    position: absolute;
+    top: 110px;
+    left: 0px;
+    right: 0px;
+}
+
+.footer {
+    width: 100%;
+    background-color: #2f3640;
+    position: relative;
+    margin: 0 auto;
+    height: 300px;
+    bottom: 20px;
+}
+
+.footer-line{
+    height: 8px;
+    /* top: 17px; */
+    width: 100%;
+    /* padding: 10px; */
+    margin: 0 auto;
+    background-color: #e84118;
+}
+.wrapper{
+    width: 1000px;
+    height: 610px;
+    margin: 0 auto;
+    text-align:center;
+    
+}
+.wrapper a {
+    color:#f5f6fa !important;
+    text-decoration: none;
+}
+
+.wrapper a:hover {
+    color:#2e8521 !important;
+    text-decoration: none;
+}
+.wrapper a:focus {
+    text-decoration: none;
+}
+.page-header h2{
+    margin-top: 0;
+}
+table tr td:last-child a{
+    margin-right: 15px;
+}
+.page-navigation {
+    text-align: center;
+}
+.page-navigation a {
+margin: 0 2px;
+display: inline-block;
+padding: 3px 5px;
+color: #ffffff;
+background-color: #70b7ec;
+border-radius: 5px;
+text-decoration: none;
+font-weight: bold;
+}
+
+
+.rbt{
+    padding: 5px 15px 5px 15px;
+    margin: 0 50px 0 0;
+}
+
+.actionMenu{
+    width: 80px;
+    padding: 18px 15px 18px 15px !important;
+}
+
+thead.title-align{ 
+    white-space: nowrap;
+}
+
+tbody.T_content-align{ 
+    word-break: break-word;
+}
+
+/**************************/
+/* adiciones al bootstrap */
+.modal-dialog.modal-lg {
+    /*width: 600px;*/
+    width: 325px;
+    
+}
+
+.modal-body {
+    height: 90px;
+    /*height: 110px;*/
+}
+
+table tr td:last-child a {
+    margin: 0 5px 0 5px;
+}
+/**************************/
+
